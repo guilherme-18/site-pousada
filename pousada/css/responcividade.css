@@ -1,0 +1,509 @@
+@media (max-width: 550px) {
+
+    #navbar {
+
+        height: 58px;
+
+        padding: 0 5%;
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: space-between;
+
+        flex-wrap: nowrap;
+
+    }
+
+    .logo {
+
+        display: flex;
+        align-items: start;
+        gap: 50px;
+
+        flex-shrink: 0;
+
+    }
+
+
+    .logoImg {
+
+        width: 38px;
+
+        height: 38px;
+
+    }
+
+
+    .logoEscrita h1 {
+
+        display: none;
+        position: absolute;
+
+    }
+
+    #navbar nav {
+
+        width: auto;
+
+        margin-right: 12%;
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: flex-end;
+
+        gap: 15px;
+
+        flex-wrap: nowrap;
+
+    }
+
+
+    #navbar nav a {
+
+        font-size: 12px;
+
+        letter-spacing: 1px;
+
+        font-weight: 700;
+
+        white-space: nowrap;
+
+    }
+
+
+    #navbar nav a:hover {
+
+        padding: 0;
+
+        color: #D2BEA0;
+
+    }
+
+    .videoInicio {
+
+        width: 100%;
+
+        height: 100vh;
+
+        background-image: url("../images/lazer02.jpg");
+
+        background-size: cover;
+
+        background-position: center;
+
+        background-repeat: no-repeat;
+
+    }
+
+
+    .videoInicio video {
+
+        display: none;
+
+    }
+
+    .TextoInicio {
+
+        position: absolute;
+
+        left: 50%;
+
+        bottom: 10%;
+
+        transform: translateX(-50%);
+
+        width: 90%;
+
+        text-align: center;
+
+    }
+
+    .TextoInicio h2 {
+
+        margin: 0 auto 20px;
+        margin-bottom: 100px;
+
+        font-size: 39px;
+        font-weight: 400;
+
+        text-shadow: 0 3px 15px rgba(0, 0, 0, 0.55);
+    }
+
+    .botaoInicio {
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+        width: fit-content;
+
+        margin: 0 auto;
+
+        margin-top: 20px;
+
+        gap: 12px;
+
+        padding: 6px 6px 6px 1.5%;
+
+        font-size: 11px;
+
+    }
+
+    .botaoInicio .seta {
+
+        width: 27px;
+
+        height: 27px;
+
+        font-size: 15px;
+
+    }
+
+    .vantagens {
+
+        width: 100%;
+
+        padding: 80px 6%;
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: stretch;
+
+        gap: 50px;
+
+        box-sizing: border-box;
+
+    }
+
+
+    .vantagensEsquerda {
+
+        width: 100%;
+
+    }
+
+
+    .subtitulo {
+
+        font-size: 11px;
+
+        letter-spacing: 2px;
+
+    }
+
+
+    .vantagensEsquerda h1 {
+
+        font-size: 36px;
+
+        line-height: 1.1;
+
+        letter-spacing: 0;
+
+    }
+
+
+    .vantagensEsquerda>p {
+
+        margin-top: 20px;
+
+        font-size: 15px;
+
+        line-height: 1.6;
+
+    }
+
+    .estatisticas {
+
+        margin-top: 40px;
+
+        gap: 25px;
+
+        flex-wrap: wrap;
+
+    }
+
+
+    .estatistica h2 {
+
+        font-size: 30px;
+
+    }
+
+
+    .estatistica p {
+
+        font-size: 11px;
+
+    }
+
+    .vantagensDireita {
+
+        width: 100%;
+
+        gap: 20px;
+
+    }
+
+
+    .vantagem {
+
+        min-height: auto;
+
+        padding: 15px;
+
+        gap: 15px;
+
+    }
+
+
+    .iconeImagem {
+
+        width: 85px;
+
+        height: 85px;
+
+    }
+
+
+    .vantagemTexto h2 {
+
+        margin-bottom: 7px;
+
+        font-size: 18px;
+
+    }
+
+
+    .vantagemTexto p {
+
+        font-size: 13px;
+
+        line-height: 1.45;
+
+    }
+
+    .nossosQuartos {
+
+        width: 100%;
+
+        min-height: auto;
+
+        padding: 60px 5%;
+
+        box-sizing: border-box;
+
+    }
+
+
+    .nossosQuartos1 {
+
+        padding-top: 0;
+
+    }
+
+
+    .nossosQuartos1 h1 {
+
+        max-width: 90%;
+
+        margin: auto;
+
+        padding: 10px 20px;
+
+        font-size: 27px;
+
+        letter-spacing: 2px;
+
+        text-align: center;
+
+    }
+
+
+    .nossosQuartosImagem {
+
+        margin-top: 30px;
+
+        display: flex;
+
+        flex-direction: column;
+
+        gap: 15px;
+
+    }
+
+
+    .nossosQuartosImagem P {
+
+        display: none;
+        position: absolute;
+
+        left: 10px;
+        bottom: 10px;
+        font-weight: 200;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+
+    }
+
+    .nossosQuartosImagem1 {
+
+        width: 100%;
+
+        height: 200px;
+
+    }
+
+
+    .imagensMenores {
+
+        width: 100%;
+
+        display: flex;
+
+        flex-direction: column;
+
+        gap: 15px;
+
+    }
+
+
+    .nossosQuartosImagem2 {
+
+        width: 100%;
+
+        height: 200px;
+
+    }
+
+    .servicos {
+
+        width: 100%;
+
+        padding: 60px 5%;
+
+        box-sizing: border-box;
+
+    }
+
+
+    .servicos h1 {
+
+        margin-bottom: 25px;
+
+        font-size: 27px;
+
+    }
+
+
+    .servicosContainer {
+
+        grid-template-columns: 1fr;
+
+        gap: 30px;
+
+    }
+
+    .servico img {
+
+        width: 100%;
+
+        height: 280px;
+
+    }
+
+
+    .servico h2 {
+
+        font-size: 19px;
+
+    }
+
+
+    .servico p {
+
+        font-size: 13px;
+
+    }
+
+    .footer {
+
+        padding: 50px 6% 25px;
+
+    }
+
+
+    .footerContainer {
+
+        grid-template-columns: 1fr;
+
+        gap: 35px;
+
+    }
+
+
+    .footerLogo h2 {
+
+        font-size: 26px;
+
+    }
+
+
+    .footerLogo p {
+
+        font-size: 13px;
+
+    }
+
+
+    .footerLinks h3,
+    .footerContato h3 {
+
+        font-size: 15px;
+
+    }
+
+
+    .footerLinks a,
+    .footerContato p {
+
+        font-size: 13px;
+
+    }
+
+
+    .footerBottom {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 20px;
+
+    }
+
+
+    .footerSocial {
+
+        gap: 18px;
+
+        flex-wrap: wrap;
+
+    }
+
+
+    .footerSocial a {
+
+        font-size: 12px;
+
+    }
+}

@@ -1,0 +1,946 @@
+#navbar {
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    height: 70px;
+
+    padding: 0 5% 0 5%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: rgba(0, 0, 0,  0.15);
+
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+
+    z-index: 1000;
+
+}
+
+.logo {
+
+    display: flex;
+    align-items: center;
+
+    gap: 15px;
+
+}
+
+
+.logoImg {
+
+    width: 55px;
+    height: 55px;
+
+}
+
+
+.logoEscrita {
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+
+.logoEscrita a {
+
+    text-decoration: none;
+
+    color: #ffffff;
+
+}
+
+.logoEscrita span {
+
+    font-family: "Brush Script MT";
+    font-style: italic;
+    font-size: 45px;
+    color: #ebdbc4;
+
+}
+
+.logoEscrita h1 {
+
+    margin: 0;
+
+    font-family: "URW Chancery L", "Brush Script MT", ;
+
+    font-size: 40px;
+    font-weight: 600;
+
+    letter-spacing: 2px;
+
+}
+
+#navbar nav {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 30px;
+
+    margin-right: 180px;
+
+}
+
+
+#navbar nav a {
+
+    color: #ffffff;
+
+    text-decoration: none;
+
+    font-family: Helvetica, Arial, sans-serif;
+
+    font-size: 15px;
+
+    font-weight: 900;
+
+    letter-spacing: 3px;
+
+    transition: 0.3s;
+
+}
+
+#navbar nav a:hover {
+
+    color: #D2BEA0;
+    padding: 10px;
+
+}
+
+.videoInicio {
+
+    width: 100%;
+    height: 100vh;
+
+    overflow: hidden;
+
+}
+
+
+.videoInicio video {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.TextoInicio {
+
+    position: absolute;
+    left: 50%;
+    bottom: 8%;
+    transform: translateX(-50%);
+    width: 90%;
+    text-align: center;
+    z-index: 10;
+
+}
+
+
+.TextoInicio h2 {
+
+    margin: 0 0 30px 0;
+
+    color: white;
+
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: clamp(45px, 5.5vw, 95px);
+    font-weight: 400;
+
+    line-height: 0.95;
+    letter-spacing: -3px;
+
+    text-shadow: 0 3px 15px rgba(0, 0, 0, 0.35);
+
+}
+
+
+.TextoInicio h2 span {
+
+    background-image: linear-gradient(90deg, #ffffff, #eeddc4);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+.botaoInicio {
+
+    display: inline-flex;
+    align-items: center;
+
+    gap: 25px;
+    padding: 7px 7px 7px 22px;
+
+    background: rgba(0, 0, 0, 0.75);
+    border: 1px solid #D2BEA0;
+    border-radius: 50px;
+
+    color: white;
+
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+
+    transition: 0.3s;
+
+}
+
+.botaoInicio .seta {
+
+    width: 30px;
+    height: 30px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #D2BEA0;
+
+    color: white;
+
+    font-size: 18px;
+
+}
+
+.botaoInicio:hover {
+
+    background: rgb(36, 36, 36);
+
+}
+
+.vantagens {
+
+    width: 90%;
+    padding: 120px 3% 120px 7%;
+
+    display: flex;
+    align-items: center;
+
+    background: #ffffff;
+
+}
+
+.vantagensEsquerda {
+
+    width: 48%;
+
+}
+
+
+.subtitulo {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-bottom: 18px;
+
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 4px;
+
+    color: #777;
+
+}
+
+
+.vantagensEsquerda h1 {
+
+    margin: 0;
+
+    font-size: 52px;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: #111;
+
+}
+
+.vantagensEsquerda h1 span {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: #8b7355;
+
+}
+
+
+.vantagensEsquerda p {
+
+    max-width: 650px;
+    margin-top: 28px;
+
+    font-size: 18px;
+    line-height: 1.7;
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: #555;
+
+}
+
+.estatisticas {
+
+    display: flex;
+
+    gap: 60px;
+    margin-top: 60px;
+
+}
+
+
+.estatistica {
+
+    text-align: left;
+
+}
+
+
+
+.estatistica h2 {
+
+    margin: 0;
+
+    font-size: 38px;
+    font-weight: 700;
+
+    color: #111;
+
+}
+
+
+.estatistica p {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-top: 5px;
+
+    font-size: 13px;
+
+    color: #777;
+
+}
+
+.vantagensDireita {
+
+    width: 48%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 30px;
+
+}
+
+.vantagem {
+
+    min-height: 120px;
+
+    padding: 20px;
+
+    display: flex;
+
+    align-items: center;
+
+    border-radius: 18px;
+
+    background: #e8eef2;
+
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.10);
+
+    transition: 0.35s;
+
+}
+
+.vantagem:hover {
+
+    transform: translateY(-6px);
+
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.15);
+
+}
+
+.iconeImagem {
+
+    width: 120px;
+    height: 120px;
+
+    flex-shrink: 0;
+    overflow: hidden;
+
+    border-radius: 15px;
+
+    background: #d7dee2;
+
+}
+
+
+.iconeImagem img {
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    display: block;
+
+    transition: 0.5s;
+
+}
+
+
+.vantagem:hover .iconeImagem img {
+
+    transform: scale(1.08);
+
+}
+
+.vantagemTexto {
+
+    flex: 1;
+    margin-left: 10px;
+
+}
+
+
+.vantagemTexto h2 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 10px 0;
+
+    font-size: 23px;
+
+    color: #111;
+
+}
+
+
+.vantagemTexto p {
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+
+    font-size: 15px;
+
+    line-height: 1.5;
+
+    color: #333;
+
+}
+
+.nossosQuartos {
+
+    width: 100%;
+
+    background-color: #63533e;
+
+}
+
+.nossosQuartos1 {
+
+    padding-top: 3%;
+
+}
+
+
+.nossosQuartos1 h1 {
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    margin: auto;
+    padding: 0.5% 0% 0.5% 0%;
+
+    border-radius: 20px;
+
+    box-shadow: 5px 5px 15px rgba(3, 3, 3, 0.35);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: 8px;
+    max-width: 78%;
+
+}
+
+.nossosQuartosImagem {
+
+    margin-top: 2%;
+
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+
+}
+
+.nossosQuartosImagem h2 {
+
+    position: absolute;
+
+    left: 10px;
+    bottom: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+.nossosQuartosImagem P {
+
+    position: absolute;
+
+    left: 10px;
+    bottom: 10px;
+    font-weight: 200;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+.nossosQuartosImagem h3 {
+
+    position: absolute;
+
+    right: 10px;
+    bottom: 10px;
+    font-weight: 200;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+.nossosQuartosImagem1 {
+
+    position: relative;
+
+    width: 52.3%;
+    height: auto;
+
+    overflow: hidden;
+    object-fit: cover;
+
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+
+}
+
+.nossosQuartosImagem1 img {
+
+    filter: brightness(75%);
+    width: 100%;
+    height: auto;
+
+}
+
+.nossosQuartosImagem1:hover {
+
+    transition: 0.3s;
+    transform: scale(1.02);
+
+}
+
+.imagensMenores {
+
+    width: 25%;
+    height: auto;
+
+    display: grid;
+
+    grid-template-rows: 1fr 1fr;
+
+    gap: 20px;
+
+}
+
+.nossosQuartosImagem2 {
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+
+}
+
+.nossosQuartosImagem2:hover {
+
+    transition: 0.3s;
+    transform: scale(1.02);
+
+}
+
+
+.nossosQuartosImagem2 img {
+
+    filter: brightness(75%);
+    width: 100%;
+    height: 100%;
+
+}
+
+.botaoInicio {
+
+    display: flex;
+
+    width: fit-content;
+
+    margin: 35px auto 0;
+
+    padding: 1%;
+
+}
+
+.botaoInicio p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicos {
+
+    width: 100%;
+
+    padding: 80px 8%;
+
+    box-sizing: border-box;
+
+    background: #ffffff;
+
+}
+
+.servicos h1 {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0 0 30px;
+
+    font-size: 40px;
+
+    font-weight: 700;
+
+    color: #111111;
+
+}
+
+.servicosContainer {
+
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 18px;
+
+}
+
+.servico {
+
+    position: relative;
+
+    min-width: 0;
+
+}
+
+.servico img {
+
+    width: 100%;
+
+    height: 350px;
+
+    display: block;
+
+    object-fit: cover;
+
+    border-radius: 12px;
+
+}
+
+.servico img {
+
+    width: 100%;
+
+    height: 350px;
+
+    display: block;
+
+    object-fit: cover;
+
+    border-radius: 12px;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+
+    transition: transform 0.3s ease;
+
+}
+
+.servico:hover img {
+
+    transform: translateY(-8px);
+
+}
+
+
+.servico h2 {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 12px 0 5px;
+
+    font-size: 25px;
+
+    line-height: 1.2;
+
+    font-weight: 700;
+
+    color: #111111;
+
+}
+
+.servico p {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0;
+
+    font-size: 15px;
+
+    line-height: 1.45;
+
+    color: #666666;
+
+}
+
+.footer {
+
+    width: 100%;
+
+    padding: 70px 8% 25px;
+
+    box-sizing: border-box;
+
+    background: #111111;
+
+    color: #ffffff;
+
+}
+
+.footerContainer {
+
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns: 2fr 1fr 1fr 1.5fr;
+
+    gap: 60px;
+
+    padding-bottom: 50px;
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+
+}
+
+.footerLogo h2 {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0 0 20px;
+
+    font-size: 30px;
+
+    font-weight: 700;
+
+    color: #ffffff;
+
+}
+
+
+.footerLogo p {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    max-width: 380px;
+
+    margin: 0;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+
+    color: #aaaaaa;
+
+}
+
+.footerLinks h3,
+.footerContato h3 {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0 0 20px;
+
+    font-size: 16px;
+
+    font-weight: 700;
+
+    color: #ffffff;
+
+}
+
+.footerLinks {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+
+}
+
+.footerLinks a {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    width: fit-content;
+
+    font-size: 14px;
+
+    color: #aaaaaa;
+
+    text-decoration: none;
+
+    transition: 0.3s;
+
+}
+
+.footerLinks a:hover {
+
+    color: #8b7355;
+
+    transform: translateX(4px);
+
+}
+
+.footerContato {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+
+}
+
+.footerContato p {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0;
+
+    font-size: 14px;
+
+    line-height: 1.5;
+
+    color: #aaaaaa;
+
+}
+
+.footerBottom {
+
+    padding-top: 25px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 30px;
+
+}
+
+
+.footerBottom p {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0;
+
+    font-size: 12px;
+
+    color: #777777;
+
+}
+
+.footerSocial {
+
+    display: flex;
+
+    gap: 25px;
+
+}
+
+
+.footerSocial a {
+
+    font-size: 12px;
+
+    color: #999999;
+
+    text-decoration: none;
+
+    transition: 0.3s;
+
+}
+
+
+.footerSocial a:hover {
+
+    color: #ffffff;
+
+}
+
+@view-transition {
+    navigation: auto;
+}
+
+::view-transition-group(root) {
+    animation-duration: 0.5s;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+    animation-duration: 0.5s;
+}
